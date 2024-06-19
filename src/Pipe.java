@@ -11,7 +11,7 @@ public class Pipe extends Actor {
      }
 
     public void act () {
-             setLocation(getX() - pipeSpeed, getY());
+        setLocation(getX() - pipeSpeed, getY());
     }
 
     public void setPipeSpeed(int pipeSpeed) {

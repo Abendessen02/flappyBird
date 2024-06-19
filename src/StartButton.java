@@ -1,4 +1,3 @@
-import com.sun.glass.events.MouseEvent;
 import greenfoot.Actor;
 import greenfoot.Greenfoot;
 import greenfoot.GreenfootImage;
@@ -18,7 +17,6 @@ public class StartButton extends Actor {
         MainWorld mainWorld = new MainWorld();
         if (Greenfoot.mouseClicked(this)){
             Greenfoot.setWorld(mainWorld);
-            System.out.println(0);
         }
     }
 }

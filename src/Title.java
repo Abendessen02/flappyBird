@@ -3,11 +3,11 @@ import greenfoot.Greenfoot;
 import greenfoot.GreenfootImage;
 
 public class Title extends Actor {
-    GreenfootImage Image = new GreenfootImage("images/flappybird_title.png");
 
-    public Title() {
-        Image.scale(300, 90);
-        setImage(Image);
+    public Title(String pictureFileName) {
+        GreenfootImage image = new GreenfootImage(pictureFileName);
+        image.scale(300, 90);
+        setImage(image);
         Greenfoot.start();
     }
 }

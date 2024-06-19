@@ -1,7 +1,6 @@
 import greenfoot.GreenfootImage;
 import greenfoot.World;
 
-
 public class TitleScreenWorld extends World {
     StartButton startButton = null;
 
@@ -15,7 +14,7 @@ public class TitleScreenWorld extends World {
 
     public void createTitleScreen(){
         startButton = new StartButton();
-        Title title = new Title();
+        Title title = new Title("images/flappybird_title.png");
         addObject(title, getWidth()/2 , 300);
         addObject(startButton, getWidth()/2, 400);
     }
